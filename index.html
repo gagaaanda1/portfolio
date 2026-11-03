@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio pribadi web developer.">
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+  href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+  rel="stylesheet"
+>
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="motion-enabled">
+  <div class="noise"></div>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Navigasi utama">
+      <a class="brand" href="#top"><span class="brand-mark">DK</span><span>Hardika<span class="accent">AnggaN</span></span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Buka menu" aria-expanded="false"><i data-lucide="menu"></i></button>
+      <div class="nav-links" id="nav-links">
+        <button
+          class="theme-toggle"
+          id="theme-toggle"
+          type="button"
+          aria-label="Ganti ke mode terang"
+          title="Ganti tema"
+        >
+          <i data-lucide="sun" id="theme-icon"></i>
+        </button>
+        <a href="#about">Tentang</a><a href="#skills">Keahlian</a><a href="#projects">Proyek</a><a href="#experience">Pengalaman</a><a href="#contact">Kontak</a>
+        <a class="nav-cta" href="#contact">Hubungi saya <i data-lucide="arrow-up-right"></i></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container section-pad" id="about">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> TERBUKA UNTUK PELUANG BARU</div>
+        <p class="hero-kicker">Halo, saya</p>
+        <h1>Hardika Angga Nugraha<span class="accent">.</span><br><span class="outline-text">IT Engineering</span></h1>
+        <p class="hero-desc">Saya membangun pengalaman digital yang cepat, fungsional, dan mudah digunakan. Fokus pada pengembangan web, pemecahan masalah, dan teknologi yang bermanfaat. Danjuga pengelolaan Server</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Lihat proyek <i data-lucide="arrow-up-right"></i></a>
+          <a class="button button-ghost" href="#contact">Mari terhubung <i data-lucide="move-up-right"></i></a>
+        </div>
+        <div class="hero-meta"><span><i data-lucide="map-pin"></i> Indonesia</span><span><i data-lucide="code-2"></i> Full-time learner</span></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="visual-grid"></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-card">
+          <div class="code-top"><span></span><span></span><span></span><small>developer.js</small></div>
+          <pre><span class="code-purple">const</span> developer = {
+            name: <span class="code-green">'Hardika Angga Nugraha'</span>,
+            role: <span class="code-green">'IT Engineering'</span>,
+            skills: [
+              <span class="code-orange">'HTML'</span>,
+              <span class="code-orange">'CSS'</span>,
+              <span class="code-orange">'JavaScript'</span>,
+              <span class="code-orange">'PHP'</span>
+            ],
+            passion: <span class="code-green">'Building useful things'</span>,
+            available: <span class="code-blue">true</span>
+          };
+
+          <span class="code-purple">export default</span> developer;</pre>
+        </div>
+        <div class="floating-chip chip-top"><i data-lucide="braces"></i> Clean code</div>
+        <div class="floating-chip chip-bottom"><i data-lucide="zap"></i> Always learning</div>
+        <div class="hero-index">01 <span>/ 05</span></div>
+      </div>
+    </section>
+
+    <section class="intro-strip">
+      <div class="container strip-inner"><span>IDEAS INTO DIGITAL PRODUCTS</span><div class="strip-line"></div><span>DESIGN · DEVELOP · DEPLOY · IMPLEMENTASI</span></div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading reveal"><div><p class="eyebrow">02 / WHAT I DO</p><h2>Tools & <span class="accent">skills.</span></h2></div><p class="section-note">Teknologi yang saya gunakan untuk mengubah ide menjadi solusi digital.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-icon"><i data-lucide="panels-top-left"></i></div><h3>Frontend</h3><p>Membangun antarmuka web responsif dan interaktif.</p><div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon"><i data-lucide="server"></i></div><h3>Backend</h3><p>Mengelola logika aplikasi, API, dan proses bisnis.</p><div class="tags"><span>PHP</span><span>Node.js</span><span>REST API</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon"><i data-lucide="database"></i></div><h3>Database</h3><p>Menyusun struktur data yang konsisten dan efisien.</p><div class="tags"><span>MySQL</span><span>SQLite</span><span>Google Sheets</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon"><i data-lucide="workflow"></i></div><h3>Tools & workflow</h3><p>Kolaborasi, version control, dan deployment aplikasi.</p><div class="tags"><span>Git</span><span>GitHub</span><span>VS Code</span><span>XAMPP</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon"><i data-lucide="monitor-pc"></i></div><h3>Hardware & Software</h3><p>Pengelolaan Server</p><div class="tags"><span>Virtual Machine</span><span>Proxmox</span><span>NAS</span><span>Panel</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon"><i data-lucide="ethernet-port"></i></div><h3>Networking</h3><p>Networking</p><div class="tags"><span>MikroTik</span></div></article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal"><div><p class="eyebrow">03 / SELECTED WORK</p><h2>Featured <span class="accent">projects.</span></h2></div><p class="section-note">Beberapa contoh proyek saya.</p></div>
+        <div class="project-filters reveal" id="project-filters"><button class="filter-btn active" data-filter="all">Semua</button><button class="filter-btn" data-filter="web">Web App</button><button class="filter-btn" data-filter="system">System</button><button class="filter-btn" data-filter="server">Server</button></div>
+        <div class="projects-grid" id="projects-grid"></div>
+      </div>
+    </section>
+
+    <section class="section container" id="experience">
+      <div class="section-heading reveal"><div><p class="eyebrow">04 / MY JOURNEY</p><h2>Experience & <span class="accent">journey.</span></h2></div><p class="section-note">Perjalanan belajar dan pengalaman profesional saya.</p></div>
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-date">2025 — SEKARANG</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-type">PENGALAMAN KERJA</span>
+            <h3>IT Support &amp; System Management — Klinik</h3>
+            <p>Menangani kebutuhan dan dukungan teknologi informasi di lingkungan klinik, termasuk pemeliharaan komputer dan perangkat kerja, Server, Database, pengelolaan jaringan, serta membantu memastikan aplikasi dan sistem operasional klinik berjalan dengan baik. Melakukan troubleshooting kendala teknis dan membantu pengguna dalam penggunaan perangkat maupun sistem informasi.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-date">2022 — SEKARANG</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-type">PENGALAMAN KERJA</span>
+            <h3>IT Support &amp; System Management — Rumah Sakit</h3>
+            <p>Mendukung operasional teknologi informasi rumah sakit melalui pengelolaan dan pemeliharaan sistem informasi rumah sakit (SIMRS), server, database, jaringan komputer, serta perangkat keras dan lunak. Menangani troubleshooting, membantu pengguna, dan memastikan layanan serta sistem pendukung operasional rumah sakit berjalan optimal.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-date">2022 — SEKARANG</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-type">LEARNING</span>
+            <h3>IT Engineering</h3>
+            <p>Mengembangkan aplikasi berbasis web, menerapkan praktik pemrograman, mengelola database dan server, serta mempelajari pemeliharaan jaringan komputer dan keamanan sistem. Terus meningkatkan kemampuan analisis dan pemecahan masalah teknis, mengoptimalkan kinerja sistem, serta mengembangkan solusi berbasis teknologi.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-wrap">
+        <div class="contact-copy reveal"><p class="eyebrow">05 / GET IN TOUCH</p><h2>Have a project<br>in <span class="accent">mind?</span></h2><p>Punya ide, peluang kerja sama, atau ingin berdiskusi tentang teknologi? Kirim pesan kepada saya.</p>
+          <div class="contact-links"><a href="mailto:hardikaangganugraha@gmail.com"><i data-lucide="mail"></i> hardikaangganugraha@gmail.com</a><a href="https://github.com/gagaaanda1" target="_blank" rel="noreferrer"><i data-lucide="github"></i> github.com/gagaaanda1</a></div>
+        </div>
+        <form class="contact-form reveal" id="contact-form">
+          <label>Nama<input name="name" type="text" placeholder="Nama" required></label>
+          <label>Email<input name="email" type="email" placeholder="contoh@gmail.com" required></label>
+          <label>Pesan<textarea name="message" rows="5" placeholder="Ceritakan ide atau kebutuhan Anda..." required></textarea></label>
+          <button class="button button-primary" type="submit">Kirim via email <i data-lucide="send"></i></button>
+          <p class="form-hint" id="form-hint">Form akan membuka aplikasi email Anda (tanpa backend).</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#top"><span class="brand-mark">DK</span><span>Hardika<span class="accent">AnggaN</span></span></a><p>© <span id="year"></span> Hardika Angga Nugraha. Dibuat dengan HTML, CSS & JavaScript.</p><a class="back-top" href="#top">Kembali ke atas ↑</a></div></footer>
+  <!-- Lucide icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+<!-- Project Data -->
+  <script src="js/projects.js"></script>
+
+  <!-- Navigation -->
+  <script src="js/navigation.js"></script>
+
+  <!-- Contact -->
+  <script src="js/contact.js"></script>
+
+  <!-- Theme -->
+  <script src="js/theme.js"></script>
+
+  <!-- Main -->
+  <script src="js/main.js"></script>
+</body>
+</html>
